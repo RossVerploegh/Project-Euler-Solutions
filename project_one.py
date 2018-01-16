@@ -9,10 +9,8 @@ def Mutiplesof3and5(number):
     Returns:
         Integer sum of the all multiples of 3 or 5 below the stated number.
     """
-    summation = int(0.0)
-    summation = sum([summation + n for n in range(1, number)
-                     if n % 3 == 0 or n % 5 == 0])
-    return summation
+    return sum(n for n in range(1, number)
+               if n % 3 == 0 or n % 5 == 0)
 
 
 if __name__ == '__main__':
