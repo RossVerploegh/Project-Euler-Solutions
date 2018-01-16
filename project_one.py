@@ -1,7 +1,4 @@
-#!/usr/bin/python
-
-
-def Mutiplesof3and5(number):
+def mutiplesof3and5(number):
     """Finds the sum of all the multiples of 3 or 5 below a given number.
 
     Args:
@@ -14,4 +11,4 @@ def Mutiplesof3and5(number):
 
 
 if __name__ == '__main__':
-    print(Mutiplesof3and5(1000))
+    print(mutiplesof3and5(1000))
